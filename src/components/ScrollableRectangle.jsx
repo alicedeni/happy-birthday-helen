@@ -13,7 +13,6 @@ const ScrollableRectangle = ({
   const handleScroll = event => {
     if (scrollRef.current) {
       scrollRef.current.scrollLeft += event.deltaY
-      event.preventDefault()
     }
   }
 
